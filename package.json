@@ -1,0 +1,23 @@
+{
+  "name": "node-wordcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx ts-node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@node-rs/jieba": "^1.9.2",
+    "canvas": "^2.11.2",
+    "sharp": "^0.33.2"
+  }
+}
